@@ -86,3 +86,51 @@ img {
   margin-bottom: 10px;
   color: #222;
 }
+
+.section-title h2 {
+  text-align: center;
+  margin-bottom: 35px;
+  font-size: 35px;
+}
+
+.orange-color {
+  color: orange;
+}
+
+.experience-area h1 {
+  margin-bottom: 20px;
+}
+
+.experience-area h4 {
+  margin-bottom: 15px;
+}
+.experience-area {
+  height: 350px;
+  background-image: url('assets/img/exp-bg.png');
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.experience-area .half-width {
+  background: rgba(255, 255, 255);
+  padding: 40px 25px;
+  border-radius: 5px;
+  box-shadow: 5px 10px 40px grey;
+  min-height: 250px;
+}
+.footer-area {
+  margin-top: 80px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+#fullstack {
+  border-left: 7px solid;
+  border-image: linear-gradient(lightsalmon, tomato);
+  border-image-slice: 1;
+}
+#babydev {
+  border-image: linear-gradient(145deg, blue, tomato);
+  border-left: 7px solid;
+  border-image-slice: 1;
+}
