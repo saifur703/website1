@@ -1,42 +1,88 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
-    font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
 }
-
+p {
+  color: #777;
+}
 img {
-    max-width: 100%;
+  max-width: 100%;
 }
-
+.section-padding {
+  padding: 50px 0;
+}
 .name-highlight {
-    color: orange;
+  color: orange;
 }
 
 .welcome-area {
-    margin-top: 50px;
+  background-image: url('assets//img/top-banner.png');
+  background-repeat: no-repeat;
+  height: 470px;
 }
-
+.welcome-area .title {
+  margin-top: 50px;
+}
 .half-width {
-    width: 40%;
-    float: left;
-    margin-left: 5%;
-    padding-left: 2%;
+  width: 40%;
+  float: left;
+  margin-left: 5%;
+  padding-left: 2%;
 }
 
 .half-width h1 {
-    font-size: 39px;
-    line-height: 1.6;
+  font-size: 39px;
+  line-height: 1.6;
 }
 
 .welcome-description {
-    margin-top: 50px;
+  margin-top: 70px;
 }
 
 .welcome-description h3 {
-    font-size: 22px;
-    margin-bottom: 12px;
+  font-size: 22px;
+  margin-bottom: 12px;
+}
+
+.link-btn {
+  text-decoration: none;
+  background-image: linear-gradient(45deg, orange, tomato);
+  padding: 10px 30px;
+  display: inline-block;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  margin-top: 20px;
+}
+
+.second-area-desc {
+  margin-top: 50px;
+  line-height: 1.7;
+}
+.second-area {
+  background-image: url('assets/img/dream-bg.png');
+  background-repeat: no-repeat;
+  background-position: right;
+  height: 470px;
+}
+.second-area-desc .link-btn {
+  margin-top: 30px;
+}
+.second-area h3 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+.second-area h4 {
+  font-size: 21px;
+  margin-bottom: 10px;
+  color: #222;
 }
