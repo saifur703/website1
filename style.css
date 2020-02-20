@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.name-highlight {
+    color: orange;
+}
+
+.welcome-area {
+    margin-top: 50px;
+}
+
+.half-width {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+.half-width h1 {
+    font-size: 39px;
+    line-height: 1.6;
+}
+
+.welcome-description {
+    margin-top: 50px;
+}
+
+.welcome-description h3 {
+    font-size: 22px;
+    margin-bottom: 12px;
+}
